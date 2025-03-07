@@ -4,15 +4,15 @@
 using namespace std;
 
 int main(){
-   int numero;
-   double horas, valorPorHora;
+    int numero;
+    double horas, valorPorHora;
 
-   cin >> numero >> horas >> valorPorHora;
+    cin >> numero >> horas >> valorPorHora;
 
-   double salario = horas * valorPorHora;
+    double salario = horas * valorPorHora;
 
-   cout << "NUMBER = " << numero << endl;
-   cout << "SALARY = U$ " << fixed << setprecision(2) << salario << endl;
+    cout << "NUMBER = " << numero << endl;
+    cout << "SALARY = U$ " << fixed << setprecision(2) << salario << endl;
 
-   return 0;
+    return 0;
 }
