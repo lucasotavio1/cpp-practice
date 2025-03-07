@@ -3,14 +3,13 @@
 using namespace std;
 
 int main(){
-   int a, b, prod;
+    int a, b, prod;
 
-   cin >> a;
-   cin >> b;
+    cin >> a >> b;
 
-   prod = a * b;
+    prod = a * b;
 
-   cout << "PROD = " << prod << endl;
+    cout << "PROD = " << prod << endl;
 
-   return 0;
+    return 0;
 }
