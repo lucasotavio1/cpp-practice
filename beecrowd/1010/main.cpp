@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main(){
+int main() {
     int codigo1, quantidade1, codigo2, quantidade2;
     double valorUnitario1, valorUnitario2;
 
