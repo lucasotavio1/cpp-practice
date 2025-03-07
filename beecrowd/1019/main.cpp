@@ -1,22 +1,18 @@
 #include <iostream>
-#include <iomanip>
 
 using namespace std;
 
 int main() {
-    int totalDias;
+    int n;
 
-    cin >> totalDias;
+    cin >> n;
 
-    int anos = totalDias / 365;
-    int resto = totalDias % 365;
+    int horas = n / 3600;
+    int resto = n % 3600;
+    int minutos = resto / 60;
+    int segundos = resto % 60;
 
-    int meses = resto / 30;
-    int dias = resto % 30;
-
-    cout << anos << " ano(s)" << endl;
-    cout << meses << " mes(es)" << endl;
-    cout << dias << " dia(s)" << endl;
+    cout << horas << ":" << minutos << ":" << segundos << endl;
 
     return 0;
 }
