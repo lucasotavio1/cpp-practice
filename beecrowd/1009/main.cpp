@@ -4,14 +4,14 @@
 using namespace std;
 
 int main(){
-   string nome;
-   double salarioFixo, totalVendas;
+    string nome;
+    double salarioFixo, totalVendas;
 
-   cin >> nome >> salarioFixo >> totalVendas;
+    cin >> nome >> salarioFixo >> totalVendas;
 
-   double totalReceber = salarioFixo + (totalVendas * 0.15);
+    double totalReceber = salarioFixo + (totalVendas * 0.15);
 
-   cout << "TOTAL = R$ " << fixed << setprecision(2) << totalReceber << endl;
+    cout << "TOTAL = R$ " << fixed << setprecision(2) << totalReceber << endl;
 
-   return 0;
+    return 0;
 }
