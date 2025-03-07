@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main(){
+int main() {
     double a, b, c;
     const double pi = 3.14159;
 
