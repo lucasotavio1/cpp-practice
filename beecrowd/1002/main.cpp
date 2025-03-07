@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main(){
+int main() {
     double raio, area;
     const double n = 3.14159;
 
