@@ -3,14 +3,13 @@
 using namespace std;
 
 int main(){
-   int a, b, soma;
+    int a, b, soma;
 
-   cin >> a;
-   cin >> b;
+    cin >> a >> b;
 
-   soma = a + b;
+    soma = a + b;
 
-   cout << "SOMA = " << soma << endl;
+    cout << "SOMA = " << soma << endl;
 
-   return 0;
+    return 0;
 }
