@@ -20,6 +20,7 @@ int main() {
     while (n--) {
         long long numerador1, denominador1, numerador2, denominador2;
         char barra1, operador, barra2;
+        
         cin >> numerador1 >> barra1 >> denominador1 >> operador >> numerador2 >> barra2 >> denominador2;
 
         long long numeradorResultado, denominadorResultado;
