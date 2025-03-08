@@ -6,6 +6,7 @@ using namespace std;
 long long mdc(long long a, long long b) {
     a = abs(a);
     b = abs(b);
+    
     while (b != 0) {
         long long temp = a % b;
         a = b;
@@ -16,7 +17,9 @@ long long mdc(long long a, long long b) {
 
 int main() {
     int n;
+    
     cin >> n;
+    
     while (n--) {
         long long numerador1, denominador1, numerador2, denominador2;
         char barra1, operador, barra2;
@@ -24,6 +27,7 @@ int main() {
         cin >> numerador1 >> barra1 >> denominador1 >> operador >> numerador2 >> barra2 >> denominador2;
 
         long long numeradorResultado, denominadorResultado;
+        
         if (operador == '+') {
             numeradorResultado = numerador1 * denominador2 + numerador2 * denominador1;
             denominadorResultado = denominador1 * denominador2;
